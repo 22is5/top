@@ -37,6 +37,7 @@ a {
   padding: 12px;
   position: absolute;
   left: 0;
+  filter: saturate(80%);
 }
 #current {
   color: var(--topred);
@@ -45,4 +46,55 @@ a {
 .albumLogo {
   filter: saturate(80%) drop-shadow(0 0 10px #000);
   width: 25%;
+}
+.titleBar {
+  width: 100%;
+  background-color: #000;
+  border-top: solid 2px var(--topred);
+  border-bottom: solid 2px var(--topred);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.825vw;
+}
+.a {
+  text-transform: uppercase;
+  opacity: 0.2;
+}
+.b {
+  text-transform: uppercase;
+  transform: scale(-1, 1);
+  opacity: 0.2;
+}
+.c {
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.breach {
+  width: 100%;
+  aspect-ratio: 16/8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.breachText {
+  color: var(--topred);
+  font-size: 36px;
+  line-height: 1.5;
+  width: 50%;
+}
+.breachText a {
+  width: 100%;
+  color: #cacaca;
+  letter-spacing: 5px;
+  border-bottom: solid 2px var(--topred);
+  font-weight: 500;
+}
+.breach img {
+  width: 50%;
+  filter: saturate(0%) brightness(10%) blur(5px);
+  padding: 24px;
+  position: absolute;
+  z-index: -1;
 }
