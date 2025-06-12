@@ -28,6 +28,7 @@ a {
   transition: color 0.2s;
   padding: 6px;
   font-size: 1.8vw;
+  border-bottom: solid 2px #00000000;
 }
 .banner a:hover {
   color: var(--topred);
