@@ -22,6 +22,7 @@ a {
   height: 5vw;
   gap: 1vw;
   font-size: 18px;
+  user-select: none;
 }
 .banner a {
   transition: color 0.2s;
@@ -46,6 +47,8 @@ a {
 .albumLogo {
   filter: saturate(80%) drop-shadow(0 0 10px #000);
   width: 25%;
+  user-select: none;
+  pointer-events: none;
 }
 .titleBar {
   width: 100%;
@@ -56,6 +59,7 @@ a {
   display: flex;
   justify-content: center;
   font-size: 1.825vw;
+  user-select: none;
 }
 .a {
   text-transform: uppercase;
@@ -97,4 +101,6 @@ a {
   padding: 3vw;
   position: absolute;
   z-index: -1;
+  user-select: none;
+  pointer-events: none;
 }
