@@ -19,25 +19,25 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 72px;
-  gap: 24px;
+  height: 5vw;
+  gap: 1vw;
   font-size: 18px;
 }
 .banner a {
   transition: color 0.2s;
-  letter-spacing: 1px;
   padding: 6px;
+  font-size: 1.8vw;
 }
 .banner a:hover {
   color: var(--topred);
 }
 .topLogo {
-  width: 72px;
-  max-width: 15%;
+  width: 5vw;
   padding: 12px;
   position: absolute;
   left: 0;
   filter: saturate(80%);
+  display: none;
 }
 #current {
   color: var(--topred);
@@ -52,7 +52,7 @@ a {
   background-color: #000;
   border-top: solid 2px var(--topred);
   border-bottom: solid 2px var(--topred);
-  padding: 16px;
+  padding: 1vw;
   display: flex;
   justify-content: center;
   font-size: 1.825vw;
@@ -80,21 +80,21 @@ a {
 }
 .breachText {
   color: var(--topred);
-  font-size: 36px;
+  font-size: 2.5vw;
   line-height: 1.5;
   width: 50%;
 }
 .breachText a {
   width: 100%;
   color: #cacaca;
-  letter-spacing: 5px;
+  letter-spacing: 0.5vw;
   border-bottom: solid 2px var(--topred);
   font-weight: 500;
 }
 .breach img {
   width: 50%;
-  filter: saturate(0%) brightness(10%) blur(5px);
-  padding: 24px;
+  filter: saturate(0%) brightness(10%) blur(0.5vw);
+  padding: 3vw;
   position: absolute;
   z-index: -1;
 }
